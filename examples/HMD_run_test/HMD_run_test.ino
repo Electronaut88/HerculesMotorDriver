@@ -14,8 +14,8 @@
 
 #include <HerculesMotorDriver.h>
 
-Hdriver motor(2, 4, 3);
-int Speed = 100;
+Hdriver motor(2, 4, 3);  // (IN1, IN2, PWM)
+int Speed = 100;         // ( 0 to 255 )
 
 void setup() {
   // put your setup code here, to run once:
